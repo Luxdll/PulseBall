@@ -10,6 +10,7 @@ public class PlayerHealth : MonoBehaviour
     {
         currentHealth = maxHealth;
     }
+
     public void TakeDamage(int damage)
     {
         if (damage <= 0)
@@ -23,5 +24,15 @@ public class PlayerHealth : MonoBehaviour
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         }
+    }
+
+    public void Heal(int amount)
+    {
+        if (amount <= 0)
+            return;
+
+        currentHealth = Mathf.Min(maxHealth, currentHealth + amount);
+
+        Debug.Log($"Здоровье: {currentHealth}/{maxHealth}");
     }
 }
