@@ -6,6 +6,8 @@ public class PlayerMovement : MonoBehaviour
 {
     [SerializeField] private float moveSpeed = 5f;
     [SerializeField] private float acceleration = 20f;
+    [SerializeField] private float speedMultiplier = 1f;
+    [SerializeField] private float boostTimeRemaining;
 
     private Rigidbody2D body;
     private Vector2 moveInput;
@@ -17,6 +19,7 @@ public class PlayerMovement : MonoBehaviour
 
     private void Update()
     {
+        UpdateSpeedBoost();
         moveInput = Vector2.zero;
 
         Keyboard keyboard = Keyboard.current;
@@ -41,11 +44,34 @@ public class PlayerMovement : MonoBehaviour
 
     private void FixedUpdate()
     {
-        Vector2 targetVelocity = moveInput * moveSpeed;
+        Vector2 targetVelocity = moveInput * moveSpeed * speedMultiplier;
 
         body.linearVelocity = Vector2.MoveTowards(
             body.linearVelocity,
             targetVelocity,
             acceleration * Time.fixedDeltaTime);
+    }
+
+    public void ApplySpeedBoost(float multiplier, float duration)
+    {
+        if (multiplier <= 1f || duration <= 0f)
+            return;
+
+        speedMultiplier = multiplier;
+        boostTimeRemaining = duration;
+    }
+
+    private void UpdateSpeedBoost()
+    {
+        if (boostTimeRemaining <= 0f)
+            return;
+
+        boostTimeRemaining = Mathf.Max(
+            0f, boostTimeRemaining - Time.deltaTime);
+
+        if (boostTimeRemaining == 0f)
+        {
+            speedMultiplier = 1f;
+        }
     }
 }
