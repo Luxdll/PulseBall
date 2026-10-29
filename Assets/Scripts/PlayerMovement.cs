@@ -8,6 +8,7 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private float acceleration = 20f;
     [SerializeField] private float speedMultiplier = 1f;
     [SerializeField] private float boostTimeRemaining;
+    [SerializeField] private VirtualJoystick joystick;
 
     private Rigidbody2D body;
     private Vector2 moveInput;
@@ -24,20 +25,25 @@ public class PlayerMovement : MonoBehaviour
 
         Keyboard keyboard = Keyboard.current;
 
-        if (keyboard == null)
-            return;
+        if (keyboard != null)
+        {
+            if (keyboard.aKey.isPressed || keyboard.leftArrowKey.isPressed)
+                moveInput.x -= 1f;
 
-        if (keyboard.aKey.isPressed || keyboard.leftArrowKey.isPressed)
-            moveInput.x -= 1f;
+            if (keyboard.dKey.isPressed || keyboard.rightArrowKey.isPressed)
+                moveInput.x += 1f;
 
-        if (keyboard.dKey.isPressed || keyboard.rightArrowKey.isPressed)
-            moveInput.x += 1f;
+            if (keyboard.sKey.isPressed || keyboard.downArrowKey.isPressed)
+                moveInput.y -= 1f;
 
-        if (keyboard.sKey.isPressed || keyboard.downArrowKey.isPressed)
-            moveInput.y -= 1f;
+            if (keyboard.wKey.isPressed || keyboard.upArrowKey.isPressed)
+                moveInput.y += 1f;
+        }
 
-        if (keyboard.wKey.isPressed || keyboard.upArrowKey.isPressed)
-            moveInput.y += 1f;
+        if (joystick != null && joystick.Direction.sqrMagnitude > 0f)
+        {
+            moveInput = joystick.Direction;
+        }
 
         moveInput = Vector2.ClampMagnitude(moveInput, 1f);
     }
