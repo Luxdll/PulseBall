@@ -9,6 +9,11 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private float speedMultiplier = 1f;
     [SerializeField] private float boostTimeRemaining;
     [SerializeField] private VirtualJoystick joystick;
+    [SerializeField] private GyroScope gyroScope;
+    [SerializeField] private bool useGyroscope;
+
+    public bool UseGyroscope => useGyroscope;
+    private static bool? lastSelectedGyroscopeMode;
 
     private Rigidbody2D body;
     private Vector2 moveInput;
@@ -16,12 +21,21 @@ public class PlayerMovement : MonoBehaviour
     private void Awake()
     {
         body = GetComponent<Rigidbody2D>();
+        if (lastSelectedGyroscopeMode.HasValue)
+            useGyroscope = lastSelectedGyroscopeMode.Value;
     }
 
     private void Update()
     {
         UpdateSpeedBoost();
         moveInput = Vector2.zero;
+
+        if (useGyroscope)
+        {
+            if (gyroScope != null && gyroScope.isActiveAndEnabled)
+                moveInput = gyroScope.Direction;
+            return;
+        }
 
         Keyboard keyboard = Keyboard.current;
 
@@ -58,6 +72,18 @@ public class PlayerMovement : MonoBehaviour
             acceleration * Time.fixedDeltaTime);
     }
 
+    public void SetGyroscopeMode(bool enabled)
+    {
+        useGyroscope = enabled;
+        lastSelectedGyroscopeMode = enabled;
+        moveInput = Vector2.zero;
+
+        if (body != null)
+            body.linearVelocity = Vector2.zero;
+
+        if (enabled && gyroScope != null)
+            gyroScope.Calibrate();
+    }
     public void ApplySpeedBoost(float multiplier, float duration)
     {
         if (multiplier <= 1f || duration <= 0f)
