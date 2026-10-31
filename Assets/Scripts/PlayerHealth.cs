@@ -6,6 +6,8 @@ public class PlayerHealth : MonoBehaviour
     [SerializeField, Min(1)] private int maxHealth = 3;
     [SerializeField] private int currentHealth;
 
+    public int CurrentHealth => currentHealth;
+
     private void Awake()
     {
         currentHealth = maxHealth;
