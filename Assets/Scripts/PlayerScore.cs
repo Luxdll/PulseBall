@@ -4,6 +4,8 @@ public class PlayerScore : MonoBehaviour
 {
     [SerializeField] private int score;
 
+    public int Score => score;
+
     private void Awake()
     {
         score = 0;
