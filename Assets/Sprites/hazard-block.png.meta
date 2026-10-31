@@ -1,0 +1,559 @@
+fileFormatVersion: 2
+guid: df2d335be82350d4eaf1fc0556c4cf2d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1977105725674484891
+    second: hazard-block_0
+  - first:
+      213: -426439601269028638
+    second: hazard-block_1
+  - first:
+      213: 6117012733440004487
+    second: hazard-block_2
+  - first:
+      213: -9204618591648289897
+    second: hazard-block_3
+  - first:
+      213: -2557921445768531723
+    second: hazard-block_4
+  - first:
+      213: -2875260408086266066
+    second: hazard-block_5
+  - first:
+      213: 255654299690312881
+    second: hazard-block_6
+  - first:
+      213: -1593586417184601993
+    second: hazard-block_7
+  - first:
+      213: 926519198674203852
+    second: hazard-block_8
+  - first:
+      213: 4148514327745438545
+    second: hazard-block_9
+  - first:
+      213: 1367359979957756285
+    second: hazard-block_10
+  - first:
+      213: 3569519050813490050
+    second: hazard-block_11
+  - first:
+      213: -2587706517779538541
+    second: hazard-block_12
+  - first:
+      213: -319492256487064210
+    second: hazard-block_13
+  - first:
+      213: -1233520828606026316
+    second: hazard-block_14
+  - first:
+      213: -8804946194677084609
+    second: hazard-block_15
+  - first:
+      213: -692917387519939211
+    second: hazard-block_16
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 1024
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: hazard-block_0
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 1220
+        width: 31
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56b08c151d8ef84e0800000000000000
+      internalID: -1977105725674484891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hazard-block_1
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 1241
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e84338217bf41af0800000000000000
+      internalID: -426439601269028638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hazard-block_2
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 1170
+        width: 29
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7819b37fbaef3e450800000000000000
+      internalID: 6117012733440004487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hazard-block_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 25
+        width: 1237
+        height: 1167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79be8d7b820a24080800000000000000
+      internalID: -9204618591648289897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hazard-block_4
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 1162
+        width: 18
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f0fc9d5fff608cd0800000000000000
+      internalID: -2557921445768531723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hazard-block_5
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 1144
+        width: 47
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2ff54384e50918d0800000000000000
+      internalID: -2875260408086266066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hazard-block_6
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 1154
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b4a7562b344c8300800000000000000
+      internalID: 255654299690312881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hazard-block_7
+      rect:
+        serializedVersion: 2
+        x: 1214
+        y: 567
+        width: 25
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77803d4c89172e9e0800000000000000
+      internalID: -1593586417184601993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hazard-block_8
+      rect:
+        serializedVersion: 2
+        x: 1220
+        y: 538
+        width: 11
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc43e826d48abdc00800000000000000
+      internalID: 926519198674203852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hazard-block_9
+      rect:
+        serializedVersion: 2
+        x: 1210
+        y: 499
+        width: 21
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 153a2e22dcb729930800000000000000
+      internalID: 4148514327745438545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hazard-block_10
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 33
+        width: 23
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d71a77d38a6d9f210800000000000000
+      internalID: 1367359979957756285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hazard-block_11
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 36
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2834ab22aaa798130800000000000000
+      internalID: 3569519050813490050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hazard-block_12
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 31
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39d99c0e1ae961cd0800000000000000
+      internalID: -2587706517779538541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hazard-block_13
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 39
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6db9974c7fe09bf0800000000000000
+      internalID: -319492256487064210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hazard-block_14
+      rect:
+        serializedVersion: 2
+        x: 946
+        y: 27
+        width: 18
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bd64e38757a1eee0800000000000000
+      internalID: -1233520828606026316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hazard-block_15
+      rect:
+        serializedVersion: 2
+        x: 971
+        y: 29
+        width: 66
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3e48d7261c8ec580800000000000000
+      internalID: -8804946194677084609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hazard-block_16
+      rect:
+        serializedVersion: 2
+        x: 1029
+        y: 19
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57dae2aae434266f0800000000000000
+      internalID: -692917387519939211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      hazard-block_0: -1977105725674484891
+      hazard-block_1: -426439601269028638
+      hazard-block_10: 1367359979957756285
+      hazard-block_11: 3569519050813490050
+      hazard-block_12: -2587706517779538541
+      hazard-block_13: -319492256487064210
+      hazard-block_14: -1233520828606026316
+      hazard-block_15: -8804946194677084609
+      hazard-block_16: -692917387519939211
+      hazard-block_2: 6117012733440004487
+      hazard-block_3: -9204618591648289897
+      hazard-block_4: -2557921445768531723
+      hazard-block_5: -2875260408086266066
+      hazard-block_6: 255654299690312881
+      hazard-block_7: -1593586417184601993
+      hazard-block_8: 926519198674203852
+      hazard-block_9: 4148514327745438545
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
